@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>$DREAM - Decentralized Privacy Coin</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 10px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background: #4CAF50;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        .features {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .feature-card {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 20px;
+            margin: 10px;
+            width: 30%;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        .cta {
+            margin: 20px 0;
+            text-align: center;
+        }
+        .cta button {
+            background: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 18px;
+        }
+        .cta button:hover {
+            background: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to $DREAM</h1>
+    <p>The Currency of Visionaries: Decentralized, Private, and Community-Driven</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#features">Features</a>
+    <a href="#tokenomics">Tokenomics</a>
+    <a href="#join">Join Us</a>
+</nav>
+
+<section id="about">
+    <h2>About $DREAM</h2>
+    <p>$DREAM is a decentralized, private, and community-driven cryptocurrency inspired by Martin Luther King Jr.'s vision of equality, unity, and progress.</p>
+</section>
+
+<section id="features">
+    <h2>Features</h2>
+    <div class="features">
+        <div class="feature-card">
+            <h3>Privacy-Focused</h3>
+            <p>Anonymous transactions to keep your financial data secure.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Community Governance</h3>
+            <p>Decisions are made collectively by $DREAM holders.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Borderless</h3>
+            <p>A currency for global citizens, free from censorship.</p>
+        </div>
+    </div>
+</section>
+
+<section id="tokenomics">
+    <h2>Tokenomics</h2>
+    <p>Capped supply: <strong>1,000,000,000 $DREAM</strong></p>
+    <p>Fair distribution: No whales, just equal opportunities.</p>
+</section>
+
+<section id="join" class="cta">
+    <h2>Join the $DREAM Movement</h2>
+    <button onclick="alert('Coming Soon!')">Download Whitepaper</button>
+    <button onclick="alert('Connecting Wallet...')">Connect Wallet</button>
+</section>
+
+<footer>
+    <p>&copy; 2025 $DREAM. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
